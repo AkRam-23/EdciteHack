@@ -44,4 +44,4 @@ async function complete() {
 
     check();
 }
-setInterval(complete, 800);
+setInterval(complete, 1200);
