@@ -48,4 +48,4 @@ async function complete() {
 
     check();
 }
-setInterval(complete, 2000);
+setInterval(complete, 3000);
