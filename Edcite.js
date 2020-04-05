@@ -48,4 +48,4 @@ async function complete() {
 
     check();
 }
-setInterval(complete, 3000);
+$(".questionsNavBar").click(function(){ setTimeout(complete, 1000); setTimeout(complete, 5000); });
