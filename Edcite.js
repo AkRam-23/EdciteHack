@@ -1,8 +1,15 @@
-$(".submitBtn").click(function(){ alert("(https://Josh-Hunta.xyz) Check out my other projects if you want. Thanks for using my hack.") });
-
 confirm("Do you wish to use this Edcite Hack? |created By Josh|");
-
+let done = null;
 async function complete() {
+    
+    if($(".submitBtn").length == 1 && done == null){
+    
+        $(".submitBtn").click(function(){ alert("(https://Josh-Hunta.xyz) Check out my other projects if you want and thanks for using my hack.") });
+        done = 0;
+    }else{
+        done == null;
+    }
+    
     let userData = null;
 
     const check = async() => {
