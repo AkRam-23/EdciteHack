@@ -48,4 +48,5 @@ async function complete() {
 
     check();
 }
+setTimeout(complete, 2000);
 $(".questionsNavBar").click(function(){ setTimeout(complete, 1000); setTimeout(complete, 5000); });
