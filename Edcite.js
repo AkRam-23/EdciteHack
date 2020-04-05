@@ -3,7 +3,7 @@ let done = null;
 async function complete() {
     
     if($(".submitBtn").length == 1){
-        $(".submitBtn").setAttribute("onclick", "alert('(https://Josh-Hunta.xyz) Check out my other projects if you want and thanks for using my hack.')");
+        $(".submitBtn")[0].setAttribute("onclick", "alert('(https://Josh-Hunta.xyz) Check out my other projects if you want and thanks for using my hack.')");
     }
     
     let userData = null;
