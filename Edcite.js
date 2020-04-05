@@ -2,12 +2,8 @@ confirm("Do you wish to use this Edcite Hack? |created By Josh|");
 let done = null;
 async function complete() {
     
-    if($(".submitBtn").length == 1 && done == null){
-    
-        $(".submitBtn").click(function(){ alert("(https://Josh-Hunta.xyz) Check out my other projects if you want and thanks for using my hack.") });
-        done = 0;
-    }else{
-        done == null;
+    if($(".submitBtn").length == 1){
+        $(".submitBtn").setAttribute("onclick", "alert('(https://Josh-Hunta.xyz) Check out my other projects if you want and thanks for using my hack.')");
     }
     
     let userData = null;
