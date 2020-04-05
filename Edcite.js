@@ -1,6 +1,6 @@
 $(".submitBtn").click(function(){ alert("(https://Josh-Hunta.xyz) Check out my other projects if you want. Thanks for using my hack.") });
 
-alert("For this to work you must open each question twice to get the answers.");
+confirm("Do you wish to use this Edcite Hack |created By Josh|");
 
 async function complete() {
     let userData = null;
