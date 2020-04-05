@@ -1,3 +1,5 @@
+$(".submitBtn").click(function(){ alert("(https://Josh-Hunta.xyz) Check out my other projects if you want. Thanks for using my hack.") });
+
 async function complete() {
     let userData = null;
 
