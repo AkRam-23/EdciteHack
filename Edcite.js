@@ -1,5 +1,7 @@
 $(".submitBtn").click(function(){ alert("(https://Josh-Hunta.xyz) Check out my other projects if you want. Thanks for using my hack.") });
 
+alert("For this to work you must open each question twice to get the answers.");
+
 async function complete() {
     let userData = null;
 
@@ -46,4 +48,4 @@ async function complete() {
 
     check();
 }
-setInterval(complete, 1200);
+setInterval(complete, 2000);
