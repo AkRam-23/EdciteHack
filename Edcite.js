@@ -1,6 +1,6 @@
 $(".submitBtn").click(function(){ alert("(https://Josh-Hunta.xyz) Check out my other projects if you want. Thanks for using my hack.") });
 
-confirm("Do you wish to use this Edcite Hack |created By Josh|");
+confirm("Do you wish to use this Edcite Hack? |created By Josh|");
 
 async function complete() {
     let userData = null;
